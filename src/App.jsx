@@ -112,7 +112,7 @@ function App() {
   return (
     <div className={`app ${weatherCondition.toLowerCase()}`}>
       <div className="container">
-        <h1 className="title">Weather Forecasting Application</h1>
+        <h1 className="title">Weather App</h1>
 
         <div className="search-box">
           <input
@@ -134,7 +134,7 @@ function App() {
 
         {recentSearches.length > 0 && (
           <div className="recent-searches">
-            <h3>Recent Searches</h3>
+            <h3 style={{ color: "blue" }}>Recent Searches</h3>
 
             <div className="recent-list">
               {recentSearches.map(
