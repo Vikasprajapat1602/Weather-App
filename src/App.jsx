@@ -134,7 +134,7 @@ function App() {
 
         {recentSearches.length > 0 && (
           <div className="recent-searches">
-            <h3 style={{ color: "blue" }}>Recent Searches</h3>
+            <h3 style={{ color: "darkblue" }}>Recent Searches</h3>
 
             <div className="recent-list">
               {recentSearches.map(
@@ -235,7 +235,7 @@ function App() {
 
         {forecast.length > 0 && (
           <div className="forecast-section">
-            <h2>5-Day Forecast</h2>
+            <h2  style={{ color: "darkblue" }}>5-Day Forecast</h2>
 
             <div className="forecast-cards">
               {forecast.slice(0, 5).map((day, index) => (
